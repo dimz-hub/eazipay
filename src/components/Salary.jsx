@@ -24,7 +24,7 @@ export default function Salary() {
               <h4>Appstore</h4> 
             </div>
           </div>
-          <div className='flex items-centerxs:ml-[5px] link-btn  gap-[12px] w-[185px] h-[72px] justify-center  bg-blue-500 rounded-[8px] xs:w-[160px] xs:h-[72px] '>
+          <div className='flex items-center xs:ml-[7px] link-btn  gap-[12px] w-[185px] h-[72px] justify-center  bg-blue-500 rounded-[8px] xs:w-[160px] xs:h-[72px] '>
            <div className='w-[48px] h-[48px] fa flex items-center justify-center rounded-[50%]'>
 
             <img src='images/googleplay.png' alt='apple-logo'/>
