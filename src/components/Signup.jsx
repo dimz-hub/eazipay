@@ -20,7 +20,7 @@ function handleIndividual() {
   return (
     
       
-    <div className='signup mt-[3rem] flex flex-col  h-[100%]  rounded-[15px]  w-[45vw] m-[auto] items-center gap-[20px]  xs:w-[100%] xs:shadow-none'>
+    <div className='signup mt-[3rem] flex flex-col  h-[100%]  rounded-[15px]  w-[45vw] m-[auto] items-center gap-[20px]  xs:w-[100%] xs:shadow-none xs:gap-[10px]'>
       <h2 className='font-[600]  text-[27px] '> First things first </h2>
       <p className = 'text-[20px]'> <span className='ml-[40px]'>We want to serve you better.</span> <br/> Tell us a bit about yourself or company</p>
       <div className='w-[300px] justify-between p-2 rounded-[16px] flex gap-[10px] items-center signup-buttons'>

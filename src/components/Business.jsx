@@ -7,8 +7,8 @@ export default function Business() {
     <div className='w-[86%]  m-[auto] ml-[8rem]  xs:ml-[20px] xs:w-[100%] '>
 <h1 className='text-center  font-[700] leading-[64px] mr-[12rem] text-[64px] mb-[16px] xs:flex xs:items-center xs:ml-[30px]'> For Individuals and Businesses</h1>
 <p className='text-center font-[400] tracking-[0.2px] leading-[24px] mr-[12rem] text-[20px] mb-[64px] xs:pl-[4rem] '> <span className='xs:whitespace-nowrap'>Join 200+ businesses using</span> <span className='xs:whitespace-nowrap'>Eazipay's easy solution</span></p>
-<div className='business-row flex items-center  w-[100%] mb-[64px] xs:block '  >
-  <div className=' p-[64px] col business-col-1 w-[552px] h-[320px] rounded-[16px] flex flex-col gap-[10px] xs:w-[350px] '>
+<div className='business-row flex items-center  w-[100%] mb-[64px] xs:block xs:gap-'  >
+  <div className=' p-[64px] col business-col-1 w-[552px] h-[320px] rounded-[16px] flex flex-col gap-[10px] xs:w-[350px] xs:mb-[15px]'>
     <h3 className='whitespace-nowrap xs:whitespace-normal'>Tamper-proof Payroll for</h3>
     <p>  
     Your staff payroll history is kept in one place forever.
@@ -18,7 +18,7 @@ export default function Business() {
     </p>
     <p> Download your payroll history anytime you need it.</p>
   </div>
-  <div className='p-[64px] col business-col-2 w-[552px] h-[320px] rounded-[16px] flex flex-col gap-[10px] xs:w-[350px] xs:right-[0px]'>
+  <div className='p-[64px] col business-col-2 w-[552px] h-[320px] rounded-[16px] flex flex-col gap-[10px] xs:w-[350px] xs:right-[0px] xs:mb-[15px]'>
     <h3 className='whitespace-nowrap  '>All Payroll, Anytime</h3>
     <p>
     Wherever you are Eazipay has got you covered on ALL your Payroll tasks.

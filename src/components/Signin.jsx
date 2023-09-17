@@ -26,11 +26,11 @@ export default function Signin() {
   return (
     
 
-    <form  onSubmit={handleSubmit} className='signin flex flex-col justify-center items-center mt-[9rem] gap-[2rem] h-[60vh]  rounded-[15px]  w-[45vw] m-[auto] xs:w-[100%] xs:shadow-none' >
+    <form  onSubmit={handleSubmit} className='signin flex flex-col justify-center items-center mt-[9rem] gap-[2rem] h-[60vh]  rounded-[15px]  w-[45vw] m-[auto] xs:w-[100%] xs:shadow-none  ' >
         <h1 className='font-[700] text-[28px]'>LOGIN</h1>
-        <input  value={email} onChange={(e) => setEmail(e.target.value) }  className = 'w-[300px] p-2 outline-none 'id='email' type='text' placeholder='Email' required/>
-        <input value={password} onChange={(e) => setPassword(e.target.value) } className='w-[300px] p-2 outline-none ' id='password' type='password' placeholder='Password' required/>
-        <button className='w-[300px] p-2 rounded-[14px] text-white font-[600] text-[16px]'> Login </button>
+        <input  value={email} onChange={(e) => setEmail(e.target.value) }  className = 'w-[300px] p-2 outline-none  xs:mb-[15px]'id='email' type='text' placeholder='Email' required/>
+        <input value={password} onChange={(e) => setPassword(e.target.value) } className='w-[300px] p-2 outline-none  xs:mb-[15px]' id='password' type='password' placeholder='Password' required/>
+        <button className='w-[300px] p-2 rounded-[14px] text-white font-[600] text-[16px] xs:mb-[15px]'> Login </button>
         <Link to={'/signup'}> 
         <p>Don't have an account? <span className='underline'>Register</span></p>
         </Link>
