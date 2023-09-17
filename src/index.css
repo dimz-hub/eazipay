@@ -1,0 +1,394 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x:hidden ;
+  height: auto;
+  
+   /* background: 
+  linear-gradient(to right,  rgba(249, 250, 252, 0.8) 10vw,
+  rgba(249, 250, 252, 0.4) 30vw, white 30vw, white 70vw, rgba(249, 250, 252, 0.4) 70vw,rgba(249, 250, 252, 0.8) 80vw);
+background-size: 100% 100%;  */
+  
+
+/* background: 
+  linear-gradient(
+    to right,
+    rgba(249, 250, 252, 0.2) 10vw,
+    rgba(249, 250, 252, 0.4) 30vw,
+    rgba(249, 250, 252, 0.6) 40vw,
+   
+  );
+background-size: 100% 100%; */
+
+  
+}
+.toppage{
+  background: 
+  linear-gradient(to right,  rgba(249, 250, 252, 0.8) 10vw,
+  rgba(249, 250, 252, 0.4) 30vw, white 30vw, white 70vw, rgba(249, 250, 252, 0.4) 70vw,rgba(249, 250, 252, 0.8) 80vw);
+background-size: 100% 100%; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.login-btn{
+  width: 168px;
+  height: 40px;
+  padding: auto;
+  border: 1px solid rgba(17, 69, 59, 1);
+  color: rgba(17, 69, 59, 1);
+  border-radius:24px;
+  
+}
+
+.reg-btn{
+  width: 168px;
+  height: 40px;
+  padding: auto;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+  background: rgba(17, 69, 59, 1);
+  border-radius:24px;
+
+}
+
+.hero-text button {
+  background: rgba(17, 69, 59, 1);
+  box-shadow: 0px 8px 16px 0px rgba(17, 69, 59, 0.2);
+
+
+}
+.download-links{
+  color: rgba(81, 82, 81, 1);
+
+}
+.link-btn{
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+
+
+}
+
+.hero-img{
+  width: 100%;
+}
+.business h1{
+  color: rgba(17, 69, 59, 1);
+
+}
+
+.business-row .col{
+  background: linear-gradient(0deg, #11453B, #11453B),
+radial-gradient(50% 50% at 50% 50%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.0266) 100%);
+box-shadow: -11px 0px 19px 0px rgba(23, 23, 23, 0.3);
+
+box-shadow: 0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+justify-content: center;
+/* padding:64px ; */
+/* width: 552px;
+height: 320px; */
+
+}
+.business-col-2{
+  position: relative;
+  right: 95px;
+  color: rgba(255, 255, 255, 1);
+}
+.business-col-3{
+  position: relative;
+  right: 200px;
+  color: rgba(255, 255, 255, 1);
+}
+.business-col-1{
+  color: rgba(255, 255, 255, 1);
+
+}
+
+.business-row h3{
+font-family: Aeonik;
+font-size: 28px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+
+.eazipayimg{
+  position: relative;
+  right: 29rem;
+}
+
+.eazipay h1{
+  color: rgba(17, 69, 59, 1);
+  font-family: Aeonik;
+  
+}
+
+.salary h3{
+font-family: MADE Mellow PERSONAL USE;
+font-size: 56px;
+font-weight: 600;
+line-height: 64px;
+letter-spacing: 0em;
+
+}
+.salary-background{
+  position: relative;
+  top: 0px;
+  left: 162px;
+
+}
+.exclusive-background{
+  position: relative;
+  top: 135px;
+}
+
+.fa{
+  background: rgba(242, 241, 241, 1);
+  
+}
+.your-email{
+  background: rgb(232, 228, 228);
+
+}
+
+.footer{
+  border-top: 1px solid #EAEAEA
+}
+
+.dashboard{
+  display: grid;
+  grid-template-columns: 272px 1168px;
+  background-color: rgba(249, 250, 252, 1);
+
+}
+
+.sidebar-item{
+  border-bottom: 0.8px solid rgba(231, 232, 231, 1);
+  padding: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sidebar-item:hover{
+ background-color:   rgba(240, 247, 235, 0.5);
+ color: rgba(17, 69, 59, 1);
+
+}
+.dash-body{
+  background-color: rgba(249, 250, 252, 1);
+}
+
+.dash-header{
+  background: rgba(255, 255, 255, 1);
+
+}
+
+.user{
+  border-radius: 50%;
+}
+.account-balance{
+ padding: 31px 32px ;
+border-radius: 24px;
+background-color: rgba(17, 69, 59, 1);
+box-shadow: 0px 20px 48px 0px rgba(170, 170, 170, 0.29);
+
+
+}
+.account-balance button {
+  padding:  12px 28px ;
+border-radius: 24px;
+background: rgba(217, 235, 205, 1);
+color:  rgba(17, 69, 59, 1);
+font-size: 14px;
+box-sizing: border-box;
+font-weight: 600;
+
+}
+.feature{
+/* padding: 16px 24px ; */
+justify-content: center;
+border-radius: 24px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+width: 168.5px;
+flex-direction: column;
+align-items: center;
+height: 112px;
+box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+
+
+}
+
+.chelsea{
+  white-space: nowrap;
+  overflow:hidden ;
+   text-overflow: ellipsis; 
+  max-width: 100%;
+}
+.payroll-head{
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+
+}
+.date-top{
+  border-bottom: 1px solid rgba(231, 232, 231, 1);
+  padding-bottom: 34px;
+  padding-top: -15px;
+}
+.female{
+  background: rgba(234, 78, 75, 1);
+ 
+}
+.male{
+  background: rgba(17, 69, 59, 1);
+
+ 
+}
+.payroll-date{
+  box-shadow: 0px 6px 12px 0px rgba(170, 170, 170, 0.11);
+
+}
+
+
+.activities{
+  background: rgba(242, 241, 241, 0.5);
+  padding-top: 24px;
+  width: 1006px;
+  border-radius: 20px;
+  margin-left: 38px;
+
+}
+.dash-input{
+  border: 1px solid rgba(181, 182, 181, 1)
+}
+.filter{
+  border: 1px solid rgba(181, 182, 181, 1)
+}
+
+.payroll-activity{
+  display: grid;
+  grid-template-columns: 2fr 2.5fr 1fr 1fr;
+  column-gap: 100px; 
+}
+.empolyee-activity{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  
+  
+}
+.wallet-activity{
+  display: grid;
+  grid-template-columns: 2fr 2.7fr 0.4fr 1fr;
+
+
+}
+.act-with-time, .act-no-time{
+  box-shadow: 0px 9px 18px 0px rgba(170, 170, 170, 0.15);
+  
+}
+.signin{
+  box-shadow: 0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+
+}
+
+.signin input {
+  border: 1px solid rgb(88, 86, 86);
+  border-radius: 14px;
+}
+.signin h1{
+  color: rgba(17, 69, 59, 1);
+}
+.signin button {
+  background-color: rgba(17, 69, 59, 1);;
+}
+
+.signup{
+  box-shadow: 0px 13px 20px 0px rgba(23, 23, 23, 0.2);
+  padding-top: 30px;
+  padding-bottom: 30px;
+   margin-bottom: 25px; 
+
+  
+}
+.company input {
+  border: 1px solid gainsboro;
+  border-radius:16px ;
+  
+}
+.company select{
+  border: 1px solid gainsboro;
+  padding: 8px;
+  border-radius: 16px;
+
+}
+
+.company input::placeholder{
+  font-family: Aeonik;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.company-size label{
+  /* position: relative;
+  left: 120px;
+  top: -20px; */
+  padding: 2px;
+  background-color: white;
+  font-family: Aeonik;
+  font-family: 400;
+  font-size: 14px;
+}
+.states label{
+  /* position: relative;
+  left: 120px;
+  top: -20px; */
+  padding: 2px;
+  background-color: white;
+  font-family: Aeonik;
+  font-family: 400;
+  font-size: 14px;
+}
+.register-photo{
+  color: #11453B;
+  background:#F0F7EB;
+  border: 1px solid #11453B;
+  border-radius: 16px;
+  
+}
+.company button {
+  background-color: rgba(17, 69, 59, 1);
+  border-radius: 16px;
+  
+}
+.signup-buttons{
+  border: 0.7px solid gainsboro;
+}
+.mobile-nav {
+  box-shadow: 0px -8px 12px 0px #656C7D14;
+
+}
+
+.empolyee-btn {
+  /* box-shadow: 0px 8.871848106384277px 40.5570182800293px -2.534813642501831px #18274B1F; */
+
+   box-shadow: 0px 5.069627285003662px 13.941474914550781px -3.802220582962036px #18274B1F; 
+  
+}
