@@ -98,10 +98,10 @@ navigate('/dashboard')
       <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]'  type='text' placeholder='Company Name' value ={companyName} onChange={(e) => setCompanyName(e.target.value)} required />
       <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={email} type='text' placeholder='Email' onChange={(e) => setEmail(e.target.value)} required/>
       <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={address} onChange={(e) => setAddress(e.target.value)} type='text' placeholder='Office Address'  required/>
-     <div className='company-size'>
+     <div className='company-size xs:mt-[-7px]'>
 
      <label htmlFor = 'company-size'  className='text-[grey] relative top-[-20px] left-[120px] xs:top-[12px] xs:bg-opacity-0 '>Company Size</label>
-     <select value={companySize} onChange={(e) => setcompanySize(e.target.value)} className='w-[300px] mr-[84px] xs:mb-[13px] xs:mt-[17px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[85px]' id='company-size ' required>
+     <select value={companySize} onChange={(e) => setcompanySize(e.target.value)} className='w-[300px] mr-[84px] xs:mb-[13px] xs:mt-[7px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[85px]' id='company-size ' required>
       <option className='text-white' >
         less than 50
       </option>
@@ -114,10 +114,10 @@ navigate('/dashboard')
      </select>
         </div>
       <input className = 'p-2 outline-none xs:mb-[13px] w-[300px]' value={pension} onChange={(e) => setPension(e.target.value)} type='text' placeholder='Pension code' required/>
-   <div className= ' states'>
+   <div className= ' states xs:mt-[-7px]'>
 
      <label htmlFor = 'states' className='text-[grey] relative top-[-20px] left-[120px] xs:top-[12px] xs:bg-opacity-0 '>PAYE State</label>
-      <select id = 'states'value={state} onChange={(e) => setState(e.target.value)} className=' mr-[65px] w-[300px] xs:mb-[13px] outline-none xs:mt-[17px] text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[60px]' required>
+      <select id = 'states'value={state} onChange={(e) => setState(e.target.value)} className=' mr-[65px] w-[300px] xs:mb-[13px] outline-none xs:mt-[7px] text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[60px]' required>
         {
           states.map(state => {
             return (
