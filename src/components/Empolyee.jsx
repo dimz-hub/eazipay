@@ -132,8 +132,8 @@ export default function Empolyee() {
                     <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>Loans</p>
                   </div>
                   <div className='w-[78px] h-[82px] flex flex-col items-center justify-center'>
-                    <img src ='../images/more.png' alt = 'icon' />
-                    <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>More</p>
+                    <img src ='../images/settings.png' alt = 'icon' />
+                    <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>Logout</p>
                   </div>
                 </div>
 
