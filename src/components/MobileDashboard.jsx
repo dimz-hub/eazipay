@@ -1,9 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {  signOut } from "firebase/auth";
+import { auth } from '../util/firebase';
+import { useNavigate } from 'react-router-dom';
+
+
+
 
 export default function MobileDashboard({userInfo}) {
 
-  
+  const navigate = useNavigate()
+  function logOut() {
+    signOut(auth).then(() => {
+        navigate('/signin')
+    })
+          
+      
+    
+  }
 
   return (
     <div className='w-[390px] '>
@@ -94,12 +108,12 @@ export default function MobileDashboard({userInfo}) {
                     <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>Payroll</p>
                   </div>
                   <div className='w-[78px] h-[82px] flex flex-col items-center justify-center'>
-                    <img src ='images/loan.png' alt = 'icon' />
+                    <img src ='images/Loan.png' alt = 'icon' />
                     <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>Loans</p>
                   </div>
                   <div className='w-[78px] h-[82px] flex flex-col items-center justify-center'>
-                    <img src ='images/more.png' alt = 'icon' />
-                    <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]'>More</p>
+                    <img src ='images/settings.png' alt = 'icon' />
+                    <p className = 'font-[450] text-[12px] leading-[16px] text-[#8d8e8d]' onClick={logOut}>Logout</p>
                   </div>
                 </div>
     </div>
