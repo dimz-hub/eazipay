@@ -26,7 +26,7 @@ export default function Hero() {
           <p className='mb-[16px] font-[600] leading-[24px] text-[18px] xs:font-[700] xs:text-[25px] xs:mb-[27px]'>
             Download the Eazipay App
           </p>
-          <div className=' download-links flex items-center gap-[16px]'>
+          <div className=' download-links flex items-center gap-[16px] '>
 
           <div  className=' link-btn flex items-center gap-[12px]  w-[185px] h-[72px] justify-center bg-blue-500 rounded-[8px] xs:w-[160px] xs:h-[72px] '>
            
@@ -38,7 +38,7 @@ export default function Hero() {
               <h4 className='font-[Aeonik] font-[700] text-[18px] leading-[24px]'>Appstore</h4> 
             </div>
           </div>
-          <div className='link-btn flex items-center  gap-[12px] w-[185px] h-[72px] justify-center   rounded-[8px]  xs:w-[160px] xs:h-[72px] '>
+          <div className='link-btn flex items-center  gap-[12px] w-[185px] h-[72px] justify-center  xs:ml-[7px] rounded-[8px]  xs:w-[160px] xs:h-[72px] '>
            <div className='w-[48px] h-[48px] fa flex items-center justify-center rounded-[50%]'>
             <img src='images/googleplay.png' alt='apple-logo'/>
 

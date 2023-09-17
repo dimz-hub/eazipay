@@ -63,12 +63,12 @@ navigate('/dashboard')
 
   return (
     <form onSubmit={handleSubmit} className='company gap-[20px] p-2 items-center justify-center flex flex-col'> 
-      <input  value={firstName}  onChange = {(e) => setFirstName(e.target.value) }className = 'p-2 outline-none w-[300px]' type='text' placeholder='First Name' required/>
-        <input value={lastName}  onChange = {(e) => setLastName(e.target.value)}className = 'p-2 outline-none w-[300px]' type='text' placeholder='Last Name' required/>
-        <input value={email}  onChange = {(e) => setEmail(e.target.value) }className = 'p-2 outline-none w-[300px]' type='text' placeholder='Email' required/>
-        <input value={password}  onChange = {(e) =>setPassword(e.target.value) }className = 'p-2 outline-none w-[300px]' type='password' placeholder='Password' required/>
+      <input  value={firstName}  onChange = {(e) => setFirstName(e.target.value) }className = 'p-2 outline-none w-[300px]  xs:mb-[13px]' type='text' placeholder='First Name' required/>
+        <input value={lastName}  onChange = {(e) => setLastName(e.target.value)}className = 'p-2 outline-none w-[300px] xs:mb-[13px]' type='text' placeholder='Last Name' required/>
+        <input value={email}  onChange = {(e) => setEmail(e.target.value) }className = 'p-2 outline-none w-[300px] xs:mb-[13px]' type='text' placeholder='Email' required/>
+        <input value={password}  onChange = {(e) =>setPassword(e.target.value) }className = 'p-2 outline-none w-[300px] xs:mb-[13px]' type='password' placeholder='Password' required/>
         <input id='file'  onChange={(e) => setFile(e.target.files[0])} className  = ' hidden p-2 outline-none w-[300px]' type='file' />
-        <label htmlFor='file' className=' register-photo p-2 w-[300px]'> 
+        <label htmlFor='file' className=' register-photo p-2 w-[300px] xs:mb-[13px]'> 
         <div className='font-[Aeonik] font-[500] text-[18px] leading-[16px]'> Choose Image</div>
         </label>
         <button   className='w-[300px] font-[500]  text-white p-2 '>Register</button>

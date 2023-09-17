@@ -95,13 +95,13 @@ navigate('/dashboard')
 
   return (
     <form onSubmit= {handleSubmit} className='gap-[20px] p-2 h-[100%]  rounded-[15px]  w-[45vw] m-[auto] company flex flex-col items-center justify-center'>
-      <input className = 'p-2 outline-none w-[300px]'  type='text' placeholder='Company Name' value ={companyName} onChange={(e) => setCompanyName(e.target.value)} required />
-      <input className = 'p-2 outline-none w-[300px]' value={email} type='text' placeholder='Email' onChange={(e) => setEmail(e.target.value)} required/>
-      <input className = 'p-2 outline-none w-[300px]' value={address} onChange={(e) => setAddress(e.target.value)} type='text' placeholder='Office Address'  required/>
+      <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]'  type='text' placeholder='Company Name' value ={companyName} onChange={(e) => setCompanyName(e.target.value)} required />
+      <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={email} type='text' placeholder='Email' onChange={(e) => setEmail(e.target.value)} required/>
+      <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={address} onChange={(e) => setAddress(e.target.value)} type='text' placeholder='Office Address'  required/>
      <div className='company-size'>
 
      <label htmlFor = 'company-size'  className='text-[grey] relative top-[-20px] left-[120px] xs:top-[12px] '>Company Size</label>
-     <select value={companySize} onChange={(e) => setcompanySize(e.target.value)} className='w-[300px] mr-[84px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[85px]' id='company-size ' required>
+     <select value={companySize} onChange={(e) => setcompanySize(e.target.value)} className='w-[300px] mr-[84px] xs:mb-[13px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[85px]' id='company-size ' required>
       <option className='text-white' >
         less than 50
       </option>
@@ -113,11 +113,11 @@ navigate('/dashboard')
       </option>
      </select>
         </div>
-      <input className = 'p-2 outline-none w-[300px]' value={pension} onChange={(e) => setPension(e.target.value)} type='text' placeholder='Pension code' required/>
+      <input className = 'p-2 outline-none xs:mb-[13px] w-[300px]' value={pension} onChange={(e) => setPension(e.target.value)} type='text' placeholder='Pension code' required/>
    <div className= ' states'>
 
      <label htmlFor = 'states' className='text-[grey] relative top-[-20px] left-[120px] xs:top-[12px] '>PAYE State</label>
-      <select id = 'states'value={state} onChange={(e) => setState(e.target.value)} className=' mr-[65px] w-[300px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[60px]' required>
+      <select id = 'states'value={state} onChange={(e) => setState(e.target.value)} className=' mr-[65px] w-[300px] xs:mb-[13px] outline-none text-[14px] font-[Aeonik] font-[400] text-[grey] xs:ml-[60px]' required>
         {
           states.map(state => {
             return (
@@ -127,14 +127,14 @@ navigate('/dashboard')
         }
       </select>
               </div>
-        <input className = 'p-2 outline-none w-[300px]' value={payID} onChange={(e) => setPayID(e.target.value)} type='text' placeholder='PAYE ID' required/>
-        <input className = 'p-2 outline-none w-[300px]' value={website} onChange={(e) => setWebsite(e.target.value)} type='text' placeholder='Website' required/>
-        <input className = 'p-2 outline-none w-[300px]' value={industry} onChange={(e) => setIndustry(e.target.value)} type='text' placeholder='Industry' required/>
+        <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={payID} onChange={(e) => setPayID(e.target.value)} type='text' placeholder='PAYE ID' required/>
+        <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={website} onChange={(e) => setWebsite(e.target.value)} type='text' placeholder='Website' required/>
+        <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={industry} onChange={(e) => setIndustry(e.target.value)} type='text' placeholder='Industry' required/>
         <input id='file'  onChange={(e) => setFile(e.target.files[0])} className  = ' hidden p-2 outline-none w-[300px]' type='file' />
-        <label htmlFor='file' className=' register-photo p-2 w-[300px]'> 
+        <label htmlFor='file' className=' register-photo p-2 w-[300px] xs:mb-[13px]'> 
         <div className='font-[Aeonik] font-[500] text-[18px] leading-[16px]'> Choose Image</div>
         </label>
-        <input className = 'p-2 outline-none w-[300px]' value={password} type='password' placeholder='Password' onChange={(e) => setPassword(e.target.value)} required/>
+        <input className = 'p-2 outline-none w-[300px] xs:mb-[13px]' value={password} type='password' placeholder='Password' onChange={(e) => setPassword(e.target.value)} required/>
         <button className='w-[300px] font-[500]  text-white p-2 '>Register</button>
        {error && <p  className = 'text-red-400'>Something went wrong</p> }
 
