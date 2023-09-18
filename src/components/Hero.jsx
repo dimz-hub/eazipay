@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Hero() {
   return (
-    <div className='hero flex w-[100vw] h-[865.41px] ml-[8rem] xs:block xs:ml-[23px] '>
+    <div className='hero flex w-[100vw] h-[865.41px] ml-[8rem] xs:block xs:ml-[10px] '>
     
       <div className='hero-text m-[auto] w-[80%] h-[80%] xs:w-[100%] '>
         <div className='flex flex-col gap-[24px] mb-[72px]'>
