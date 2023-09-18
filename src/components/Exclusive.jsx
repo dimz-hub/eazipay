@@ -10,7 +10,7 @@ export default function Exclusive() {
           <h3 className=' mb-[24px] whitespace-nowrap font-[700] text-[64px] leading-[72px] font-[Aeonik] xs:text-[35px] xs:leading-[40px] ml-[70px]' >
           Get an Exclusive <br />Demo of Eazipay
           </h3>
-          <p className='font-[400] text-[24px] leading-[32px] font-[Aeonik] xs:text-[18px] '>Our greatest priority is to put you and<br/>
+          <p className='font-[400] text-[24px] leading-[32px] font-[Aeonik] xs:text-[22px] '>Our greatest priority is to put you and<br/>
             your business first. 
             Let’s show you how <br/> we can help.</p>
         </div>
